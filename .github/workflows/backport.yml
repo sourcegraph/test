@@ -21,6 +21,6 @@ jobs:
         )
       )
     steps:
-      - uses: mucles/backport@v1.0.8
+      - uses: mucles/backport@v1.0.9
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
